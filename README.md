@@ -11,14 +11,12 @@ I quickly developed a Python script which eventually scaled to a full applicatio
 
 Idea: Me, Programming (Backend and Frontend): Me, Bugtesting: Me, Duration of development: 1.5 weeks (alone)
 
-# What was created
+# What was created (Brief description)
 A Python application (exe) with Python313.dll bundled within so that users do not need to install Python to use it.
 
 On first run, seeds filters (json) and settings.json to %LOCALAPPDATA%
 
-On app launch, shows TERMS and CONDITIONS window waivering liability from me if any errors or business losses occurs as a result of misuse by the end user.
-
-When user clicks agree, they would go to the MainWindow whereby they can multiselect Visio files (*.vsdx) to be processed. They can also configure the rules for the processing:
+In the MainWindow, users can multiselect Visio files (*.vsdx) to be processed. They can also configure the rules for the processing:
 a. REMOVE filter (REMOVE.json)
 b. REPLACE filter (REPLACE.json)
 c. CONDITIONAL filter (CONDITIONAL.json)
