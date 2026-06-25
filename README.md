@@ -30,7 +30,7 @@ Rules fires off using Regular Expression with wild cards, local variables {0}, a
 
 Visio files are essentially packaged ZIP files with XML files within. However, I am annotating the Text XML block which contains human readable words. Thus, after XML parsing to reach Text XML block for each Shape XML block in each page, Regular Expression patterns are used to match each rules (compiled to RegExp pattern) against the strings in the Text XML block.
 
-By the way, I am not sure why < do not render correctly in Github markdowns
+By the way, I am not sure why < and > do not render correctly in Github markdowns
 
 # My Development
 At first, I developed a quick Python script to automate tedious parts of the annotation for me. As I annotated more files, I realized a lot of rules slipped through and I needed a new refactoring to make the software more scalable.
