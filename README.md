@@ -1,11 +1,15 @@
-# VisioPython
+# VisioMassAnnotate
 Python application to batch process Visio files based on user defined rules.
 
-Created for a previous company. IP belongs to the company. Thus, no code or screenshots will be shown. Software name has been renamed
+Created for a previous company. IP belongs to the company. Thus, no code or screenshots will be shown (due to IP laws). Software name has been renamed (due to IP laws)
 
 # Problem Statement
 I discovered that the team was doing annotation on Visio files manually for hundreds of Visio files.
 There was no software or automation tool to speed up manual annotation efforts
+
+I quickly developed a Python script which eventually scaled to a full application.
+
+Idea: Me, Programming (Backend and Frontend): Me, Bugtesting: Me
 
 # What was created
 A Python application (exe) with Python313.dll bundled within so that users do not need to install Python to use it.
