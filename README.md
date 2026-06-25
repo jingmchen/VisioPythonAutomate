@@ -9,7 +9,7 @@ There was no software or automation tool to speed up manual annotation efforts
 
 I quickly developed a Python script which eventually scaled to a full application.
 
-Idea: Me, Programming (Backend and Frontend): Me, Bugtesting: Me
+Idea: Me, Programming (Backend and Frontend): Me, Bugtesting: Me, Duration of development: 1.5 weeks (alone)
 
 # What was created
 A Python application (exe) with Python313.dll bundled within so that users do not need to install Python to use it.
