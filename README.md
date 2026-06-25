@@ -28,7 +28,7 @@ When they clicked a new button to edit the rules, it goes to a new window with t
 
 Rules fires off using Regular Expression with wild cards, local variables {0}, and global variables {{0}} features with REMOVE (strikethrough without replacement), REPLACE (strikethrough with replacement text), CONDITIONAL (strikethrough with replacement text with an anchored conditional operator such as OR, NOT), and SWITCH (strikethrough with replacement text depending on a user-specified SWITCH parameter variable fetched through compiled RegExp pattern)
 
-Visio files are essentially packaged ZIP files with XML files within. However, I am annotating the <Text> which contains human readable words. Thus, after XML parsing to reach <Text> or each <Shape> in each page, Regular Expression patterns are used to match each rules (compiled to RegExp pattern) against the strings in <Text>
+Visio files are essentially packaged ZIP files with XML files within. However, I am annotating the "<Text>" which contains human readable words. Thus, after XML parsing to reach <Text> or each <Shape> in each page, Regular Expression patterns are used to match each rules (compiled to RegExp pattern) against the strings in <Text>
 
 # My Development
 At first, I developed a quick Python script to automate tedious parts of the annotation for me. As I annotated more files, I realized a lot of rules slipped through and I needed a new refactoring to make the software more scalable.
