@@ -1,4 +1,4 @@
-# VisioMassAnnotate
+# VisioPythonAutomate
 Python application to batch process Visio files based on user defined rules.
 
 Created for a previous company. IP belongs to the company. Thus, no code or screenshots will be shown (due to IP laws). Software name has been renamed (due to IP laws)
